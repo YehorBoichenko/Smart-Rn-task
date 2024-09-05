@@ -54,6 +54,7 @@ export default function RootLayout(): JSX.Element {
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    Poppins: require('../assets/fonts/Poppins-Regular.ttf'),
   });
   const store = createStore();
   useEffect(() => {
